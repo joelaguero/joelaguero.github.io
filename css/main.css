@@ -13,14 +13,26 @@ a {
 a:hover {
   text-decoration: underline;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin: 4% 0;
+}
+#links {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+#links > li {
+  padding: 0 1em;
+}
 #container {
   max-width: 480px;
   max-height: 640px;
   margin: 0 auto;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  margin: 4% 0;
 }
 #header {
   text-align: center;
@@ -46,4 +58,10 @@ ul {
 }
 hr {
   margin: 8% 0;
+}
+@media (max-width: 425px) {
+  #links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
