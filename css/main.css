@@ -64,4 +64,33 @@ hr {
     flex-direction: column;
     align-items: flex-start;
   }
+  #mc_embed_signup_scroll {
+    text-align: left;
+  }
+  .email {
+    margin-left: 0 !important;
+  }
+  #email-signup {
+    padding-left: 0 !important;
+  }
+}
+#email-signup {
+  max-width: 480px;
+  padding: .5em;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+#mc_embed_signup {
+  width:100%;
+  text-align: center;
+}
+#email-label {
+  font-size: 12px;
+}
+#mc-embedded-subscribe {
+  margin-bottom: 1em;
+}
+.email {
+  border-radius: 2px;
+  padding: .5em;
+  margin: 1em;
 }
